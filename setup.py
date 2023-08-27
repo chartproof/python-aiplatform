@@ -154,7 +154,8 @@ setuptools.setup(
         "google-cloud-storage >= 1.32.0, < 3.0.0dev",
         "google-cloud-bigquery >= 1.15.0, < 4.0.0dev",
         "google-cloud-resource-manager >= 1.3.3, < 3.0.0dev",
-        "shapely < 2.0.0",
+        # TODO: figure out if this could just be put in a separate set of extras
+        # "shapely < 2.0.0",
     ),
     extras_require={
         "endpoint": endpoint_extra_require,
